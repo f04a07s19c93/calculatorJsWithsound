@@ -1,0 +1,111 @@
+.calculator{
+    border: 1px solid black;
+    width: 350px;
+    height: 510px;
+    top:50px;
+    left: 100px;
+    position: relative;
+    box-shadow: 2px 2px 2px black;
+   
+}
+
+.row-display-date > div{
+    display: inline-block;
+}
+.display-hora{
+    width: 70px;
+    margin-left: 5px;
+}
+.display-data{
+    float: right;
+   
+   
+}
+
+#display-calc{
+    text-align: right;
+    float: right;
+}
+.display{
+    border: 1px solid black;
+    margin-left: 4px;
+    margin-top: 4px;
+    width: 340px;
+    height: 70px;
+    font-family: "Calculator";
+    font-size: 3pc;
+}
+.row-display-calc{
+  
+    width: 338px;
+    height: 47px;
+}
+
+.row-display-date{
+   
+    font-size: 20px;
+    width: 338px;
+    height: 20px;
+}
+.display:hover{
+    box-shadow: 1px 1px 1px black;
+}
+
+.panel{
+    border: 1px solid black;
+    margin-left: 4px;
+    margin-top: 4px;
+    width: 340px;   
+    height: 423px;
+    
+}
+
+.row{
+    max-width:335px;
+    max-height: 83px;
+}
+
+.btn{
+    height: 73px;
+    width: 70px;
+    margin-left: 10px; 
+    margin-top: 10px;
+    padding: 15px;
+    cursor:pointer;
+    background-color: white;
+    font-size: 25px;
+}
+.btn-igual{
+    height: 73px;
+    width: 153px;
+    margin-left: 10px; 
+    margin-top: 10px;
+    padding: 15px;
+    cursor:pointer;
+    background-color: white;
+    font-size: 25px;
+}
+.btn-igual:hover{
+    box-shadow: 2px 2px 2px black;
+}
+
+
+@font-face {
+    font-family: "Calculator";
+    src: url('font/Calculator.ttf');
+}
+
+.btn:hover{
+    box-shadow: 2px 2px 2px black;
+}
+.btn:active{
+    
+    box-shadow: 2px 2px 2px royalblue;
+    color: royalblue;
+    border: royalblue;
+}
+.btn-igual:active{
+    box-shadow: 2px 2px 2px royalblue;
+    color: royalblue;
+    border: royalblue;
+}
